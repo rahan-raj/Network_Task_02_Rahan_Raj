@@ -1,0 +1,21 @@
+Private IP Ranges (RFC 1918)
+
+Range                                         |    CIDR Notation
+---------------------------------------------------------------------------
+10.0.0.0 – 10.255.255.255          |   10.0.0.0/8
+172.16.0.0 – 172.31.255.255	|   172.16.0.0/12
+192.168.0.0 – 192.168.255.255	|   192.168.0.0/16
+
+Any IP address that does not fall within these ranges is a Public IP and is routable on the internet.
+-------
+Classification Results
+
+IP Address            |     Classification        |       Reason
+------------------------------------------------------------------------------------------------------
+192.168.1.10          |   Private                    |   Falls within the 192.168.0.0/16 range
+10.0.0.5                  |   Private                    |   Falls within the 10.0.0.0/8 range
+172.16.5.20            |   Private                    |   Falls within the 172.16.0.0/12 range
+8.8.8.8                    |   Public                     |  Google's public DNS server — internet routable
+1.1.1.1                    |    Public                    |  Cloudflare's public DNS server — internet routable
+192.168.100.1        |    Private                   |  Falls within the 192.168.0.0/16 range
+

@@ -1,0 +1,29 @@
+1) Router :
+- purpose: Connects a local network to the internet.
+- How it works: Reads destination IP addresses on each packet and forwards them along the best available path using routing tables.
+- Real-world use: The Wi-Fi box provided by your ISP at home; enterprise-grade routers in offices and data centres.
+
+2) Switch:
+- Purpose: Connects multiple devices within the same local area network (LAN)
+- How it works: Uses MAC addresses to send data only to the specific device it is meant for, unlike a hub which sends to everyone
+- Real-world use: Office networks connecting PCs, printers, and servers together on the same floor
+
+3) Hub:
+- Purpose: Connects multiple devices within a LAN (older technology)
+- How it works: Broadcasts every packet to all connected devices regardless of destination; each device decides whether the packet is for them
+- Real-world use: Largely obsolete today; replaced by switches due to inefficiency and security concerns
+
+4) Access Point (AP):
+- Purpose: Extends a wired network by broadcasting a wireless (Wi-Fi) signal
+- How it works: Connects to a router or switch via an Ethernet cable and creates a wireless access zone for nearby devices
+- Real-world use: Wi-Fi extenders in large offices, university campuses, shopping centres
+
+5) Firewall:
+- Purpose: Monitors and filters incoming and outgoing network traffic based on defined security rules
+- How it works: Acts as a security checkpoint — it inspects packets and blocks or allows them depending on rules set by the administrator
+- Real-world use: Windows Defender Firewall on personal PCs; enterprise hardware firewalls (e.g. Cisco, Palo Alto) protecting company networks
+
+6) Modem:
+- Purpose: Connects a home or office network to the Internet Service Provider (ISP)
+- How it works: Modulates and demodulates signals — converts analog signals from telephone or cable lines into digital signals computers understand
+- Real-world use: The device your ISP installs at your premises; the router then plugs into it

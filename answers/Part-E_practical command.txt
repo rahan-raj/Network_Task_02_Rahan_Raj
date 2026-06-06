@@ -1,0 +1,22 @@
+Practical Command Exercise ( in Windows cmd )
+----
+ipconfig/all
+nslookupgoogle.com
+pinggoogle.com
+----
+
+Questions & Answers
+
+Q1: What IP address did DNS return for Google?
+The nslookup command returned 10.2.x.x as Google's IP address.
+This is the address my device used to make the actual HTTP/S connection.
+
+Q2: Was the ping successful?
+Yes. The ping command returned 4 successful replies with low latency,
+confirming that my device has a working connection to Google's servers.
+
+Q3: Why is DNS important before communication begins?
+Computers communicate using IP addresses, not domain names. DNS translates
+google.com (human-readable) into 142.250.x.x (machine-readable) so
+the device knows where to send the request. Without a working DNS server,
+browsing by domain name would be difficult.

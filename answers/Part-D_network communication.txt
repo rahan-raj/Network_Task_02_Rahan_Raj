@@ -1,0 +1,11 @@
+Q) What happens when you open www.google.com
+------------
+Step-by-Step Explanation
+
+Step	Component	What happens
+----------------------------------------------------------------------------------------------------------
+1           |    Your device            |    You type www.google.com. The browser checks its cache, then the OS cache, then the hosts file for a                   |                                   |     known IP.
+2           |    Router                    |     If no cached IP is found, your device sends a DNS query. The router forwards it out to the internet.
+3           |    DNS server            |    The DNS server looks up www.google.com and replies with its IP address (e.g. 142.250.74.46).
+4           |    Google server        |     Your device opens a TCP connection (SYN → SYN-ACK → ACK) to that IP and sends an HTTPS                      |                                   |     request.
+5           |    Response	              |    Google's server sends back the webpage data. Your browser renders it on screen.

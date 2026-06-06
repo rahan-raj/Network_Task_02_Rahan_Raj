@@ -1,0 +1,29 @@
+Device Network Info
+
+Field                         |              Value
+--------------------------------------------------------------------------------------------
+IPv4 Address           |      192.168.x.x (replace with your actual IP)
+Default Gateway      |      192.168.x.1 (replace with your router IP)
+DNS Server             |      192.168.x.1 or 8.8.8.8 (replace with actual)
+IP Range                  |      Private — 192.168.0.0/16
+Public or Private?     |      Private
+--------------------------------------------------------------------------------------------
+
+Questions & Answers
+---------
+Q1: Which IP range does your device belong to?
+My device's IPv4 address falls within the 192.168.0.0/16 private range, which is
+the most commonly used range in home and small office networks.
+
+Q2: Is it public or private?
+Private. My device is not directly accessible from the internet.
+
+Q3: What role does your router play in your network?
+My router acts as the default gateway. All traffic from my device
+destined for the internet passes through it.
+
+Q4: What would happen if the DNS server stopped working?
+I would be unable to browse websites by domain name (e.g. google.com).
+However, I could still reach websites by typing their IP address directly
+into the browser. DNS is the phonebook of the internet — without it,
+names cannot be resolved to addresses.
